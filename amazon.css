@@ -1,0 +1,337 @@
+/*for margin*/
+.main{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+/* navbar*/
+.nav{
+    height:60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*amazon logo*/
+.navlogo{
+    height: 50px;
+    width: 100px;
+    margin: 4px;
+    }
+.logo{
+   background-image: url(amazon_logo.png);
+   background-size: cover;
+   height: 50px;
+   width: 100px;
+}
+
+/*border*/
+.border:hover{
+    border: 2px solid white;
+
+}
+
+/*locationbox*/
+.location{
+    align-content: center;
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 5px;
+    
+   
+}
+.logo-loc{
+    align-items: center;
+
+}
+.loc-1{
+    margin-left: 5px;
+  font-size: 0.8rem;
+
+}
+.loc-2{
+    display: inline;
+    font-size: 1.3rem;
+    height: 1px;
+
+}
+
+/*search box*/
+.search{
+    margin-left: 5px;
+    height: 40px;
+    width: 1300px;
+  display: flex;
+  background-color: pink;
+  border-radius: 4px;
+  justify-content: space-evenly;
+  margin-top: 8px;
+
+}
+.logo-search{
+    
+    width: 60px;
+    background-color: rgba(255, 166, 0, 0.585);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: black;
+}
+.search:hover{
+border: 2px solid orange;
+    
+}
+.search-op{
+  background-color: white;
+  width: 60px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-color: rgba(0, 0, 0, 0.227);
+
+}
+.search-input{
+width: 100%;
+font-size: 1rem;
+border: none;
+}
+
+/*sigh in*/
+.login{
+    margin-top: 5px;
+    height: 50px;
+}
+.login-1{
+    font-size: 0.9rem;
+}
+.login-2{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+/*cart*/
+.cart{
+    margin-top: 4px;
+    height: 50px;
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+.cart i{
+    margin-top: 10px;
+    font-size: 30px ;
+}
+
+/*panel_2*/
+.panel-2{
+    height: 40px;
+    background-color: rgba(23, 24, 30, 0.889);
+    display: flex;
+     color: white;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.panel-ops div{
+    display: inline;
+    margin-left: 20px;
+    }
+ .panel-ops{
+    width: 70%;
+    font-size: 1rem;
+    }
+     .panel-all{
+font-weight: bold;
+font-size: large;
+}
+.deals{
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+/*panel-3*/
+.panel-3{
+    background-image: url(hero_image.jpg);
+    height: 500px;
+    display: flex;
+    background-size:cover;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.massage{
+    background-color:white;
+    color: black;
+    width: 1500px;
+    height: 40px;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    background-size:cover;
+   justify-content: space-evenly;
+   margin-top: 400px;
+}
+.massage a{
+    color: rgba(0, 0, 255, 0.726);
+
+}
+
+/*panel-4*/
+.panel-4{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   background-color: rgba(203, 160, 207, 0.89);
+
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+      margin-top: 13px;
+      margin-bottom: 13px;
+      color: rgba(0, 0, 255, 0.726);
+     
+    }
+
+.image-1{
+   background-image: url("box1_image copy.jpg");
+   background-size: cover ;
+   height: 330px;
+   margin-left: 18px;
+   margin-right: 18px;
+    margin-top: 10px;
+margin-bottom: 10px;
+}
+ .font-1{
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-left: 18px;
+    color: black;
+ }
+
+ .image-2{
+    background-image: url("box2_image.jpg");
+    background-size: cover;
+    height: 330px;
+    margin-left: 18px;
+    margin-right: 18px;
+     margin-top: 10px;
+ margin-bottom: 10px;
+ }
+
+ .image-3{
+    background-image: url("box3_image.jpg");
+    background-size: cover;
+    height: 330px;
+    margin-left: 18px;
+    margin-right: 18px;
+     margin-top: 10px;
+ margin-bottom: 10px;
+ }
+
+ .image-4{
+    background-image: url("box4_image.jpg");
+    background-size:cover ;
+    height: 330px;
+    margin-left: 18px;
+    margin-right: 18px;
+     margin-top: 10px;
+ margin-bottom: 10px;
+ }
+ .image-5{
+    background-image: url("box5_image.jpg");
+    background-size:cover ;
+    height: 330px;
+    margin-left: 18px;
+    margin-right: 18px;
+     margin-top: 10px;
+ margin-bottom: 10px;
+ }
+
+ .image-6{
+    background-image: url("box6_image.jpg");
+    background-size:cover ;
+    height: 330px;
+    margin-left: 18px;
+    margin-right: 18px;
+     margin-top: 10px;
+ margin-bottom: 10px;
+ }
+
+ .image-7{
+    background-image: url("box7_image.jpg");
+    background-size:cover ;
+    height: 330px;
+    margin-left: 18px;
+    margin-right: 18px;
+     margin-top: 10px;
+ margin-bottom: 10px;
+ }
+
+ .image-8{
+    background-image: url("box8_image.jpg");
+    background-size:cover ;
+    height: 330px;
+    margin-left: 18px;
+    margin-right: 18px;
+     margin-top: 10px;
+ margin-bottom: 10px;
+ }
+
+ /*footer*/
+ footer{
+    margin-top: 5px;
+    
+
+ }
+ .panel-5{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 24, 30, 0.889);
+    color: white;
+    font-size: large;
+    
+ }
+ .panel-6{
+    display: flex;
+   background-color:black ;
+   justify-content: space-evenly;
+ }
+ .top-1{
+    margin-top: 15px;
+    color: white;
+    width: 200px;
+    height: 200;
+    justify-content: center;
+    }
+    .panel-7{
+        height: 100px;
+        background-color: rgb(0, 0, 0);
+border-top: 0.5px solid rgb(152, 142, 142);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+    }
+    .am{
+        background-image: url(amazon_logo.png);
+        background-size: cover;
+        height: 50px;
+        width: 100px;
+     }
+
+     .panel-8{
+        height: 70px;
+        background-color: rgb(19, 42, 69);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+    }
+    
